@@ -70,7 +70,7 @@
 > **só você promove a `Ready`** — e vira `Live` quando o PR dela é mesclado
 > (o auditor final cobra essa atualização; o commit é seu).
 
-### US01 — Publicar oferta de carona · `Must Have` · `M` · Status: `Draft`
+### US01 — Publicar oferta de carona · `Must Have` · `M` · Status: `Ready`
 
 **Como** motorista autenticado (Aluno, Professor ou Visitante), **eu quero** publicar uma oferta de carona com origem, destino, data, horário e quantidade de vagas, **para que** eu possa compartilhar meu trajeto com outros usuários da comunidade.
 
@@ -82,7 +82,7 @@
 
 **Regras relacionadas:** RN01, RN05, RN06
 
-### US02 — Pesquisar caronas por trajeto · `Must Have` · `S` · Status: `Draft`
+### US02 — Pesquisar caronas por trajeto · `Must Have` · `S` · Status: `Ready`
 
 **Como** passageiro (Aluno, Professor ou Visitante), **eu quero** pesquisar caronas informando origem e destino, **para que** eu possa encontrar viagens compatíveis com o meu itinerário.
 
@@ -94,7 +94,7 @@
 
 **Regras relacionadas:** RN02, RN05, RN06
 
-### US03 — Solicitar vaga em uma carona · `Must Have` · `M` · Status: `Draft`
+### US03 — Solicitar vaga em uma carona · `Must Have` · `M` · Status: `Ready`
 
 **Como** passageiro autenticado (Aluno, Professor ou Visitante), **eu quero** solicitar uma vaga em uma carona com lugares disponíveis, **para que** o motorista possa avaliar meu pedido e me incluir na viagem.
 
@@ -106,7 +106,7 @@
 
 **Regras relacionadas:** RN01, RN03, RN04
 
-### US04 — Avaliar solicitação de vaga · `Must Have` · `M` · Status: `Draft`
+### US04 — Avaliar solicitação de vaga · `Must Have` · `M` · Status: `Ready`
 
 **Como** motorista autenticado (Aluno, Professor ou Visitante), **eu quero** aceitar ou recusar as solicitações recebidas para minha carona, **para que** eu possa controlar quem participa da viagem e manter a vaga disponível para os usuários corretos.
 
@@ -118,7 +118,7 @@
 
 **Regras relacionadas:** RN01, RN03, RN04
 
-### US05 — Trocar mensagens no chat da carona · `Should Have` · `M` · Status: `Draft`
+### US05 — Trocar mensagens no chat da carona · `Should Have` · `M` · Status: `Ready`
 
 **Como** participante de uma carona (motorista ou passageiro com solicitação aceita), **eu quero** trocar mensagens em tempo real no chat da viagem, **para que** possamos alinhar os pontos de encontro e detalhes do embarque.
 
