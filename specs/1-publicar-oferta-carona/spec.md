@@ -1,6 +1,6 @@
 ---
 issue: 1
-status: rascunho   # rascunho | aprovada
+status: aprrovado   # rascunho | aprovada
 ---
 
 # US01 — Publicar oferta de carona
