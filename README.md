@@ -13,7 +13,11 @@ Plataforma Web desenvolvida para facilitar a mobilidade acadêmica na UTFPR Camp
 * 📄 [Documento de Requisitos do Produto (PRD)](docs/prd.md)
 * 🏗️ [Arquitetura e Design de Sistemas (Architecture)](docs/architecture.md)
 * 📋 [Ficha da Disciplina e Indicadores (Checklist)](docs/checklist.md)
+## Links das entregas
 
+* 🎨 Telas e prototipação no Stitch: [Acessar projeto](https://stitch.google.com/projects/8491646570534218067?pli=1)
+
+* 🖌️ Arquivo Figma: [Acessar telas e Mapa de Componentes Angular](https://www.figma.com/design/lKeGyx9s4LH1bQ7KTdt6dN/Untitled?node-id=0-1&p=f&t=PlreHY0D73upT0h9-0)
 ---
 
 ## Stack Tecnológica
