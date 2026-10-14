@@ -11,13 +11,19 @@ Plataforma Web desenvolvida para facilitar a mobilidade acadêmica na UTFPR Camp
 ## Documentação Técnica
 
 * 📄 [Documento de Requisitos do Produto (PRD)](docs/prd.md)
+* � [Tokens de Design e Prototipagem](docs/design-tokens.md)
 * 🏗️ [Arquitetura e Design de Sistemas (Architecture)](docs/architecture.md)
 * 📋 [Ficha da Disciplina e Indicadores (Checklist)](docs/checklist.md)
 ## Links das entregas
 
+## Prototipagem
+
+* 🔗 [Protótipo Figma](https://www.figma.com/design/lKeGyx9s4LH1bQ7KTdt6dN/Untitled?node-id=1-1128&t=nXCuX4tWgNwH5yPn-0)
+
+=======
 * 🎨 Telas e prototipação no Stitch: [Acessar projeto](https://stitch.google.com/projects/8491646570534218067?pli=1)
 
-* 🖌️ Arquivo Figma: [Acessar telas e Mapa de Componentes Angular](https://www.figma.com/design/lKeGyx9s4LH1bQ7KTdt6dN/Untitled?node-id=0-1&p=f&t=PlreHY0D73upT0h9-0)
+
 ---
 
 ## Stack Tecnológica

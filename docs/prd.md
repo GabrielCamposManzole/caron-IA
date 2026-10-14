@@ -89,7 +89,7 @@
 **Critérios de aceite:**
 
 - [ ] **Dado** que existem caronas ativas e futuras para os termos de busca informados, **quando** executo a pesquisa, **então** vejo a lista de caronas encontradas ordenadas por horário de saída mais próximo.
-- [ ] **Dado** que não existem caronas cadastradas que correspondam ao trajeto pesquisado, **quando** executo a pesquisa, **então** vejo a tela de resultado vazio com a mensagem "Nenhuma carona encontrada para este trajeto".
+- [ ] **Dado** que não existem caronas cadastradas que correspondam ao trajeto pesquisado, **quando** executo a pesquisa, **então** vejo a tela de resultado vazio com a mensagem "Nenhuma carona encontrada para este trajeto" e uma opção de ajustar a busca ou publicar uma nova oferta.
 - [ ] **Dado** que realizo uma busca e há caronas de usuários Visitantes nos resultados, **quando** visualizo os cards das caronas, **então** os cards desses usuários exibem de forma visível o badge "Visitante".
 
 **Regras relacionadas:** RN02, RN05, RN06
