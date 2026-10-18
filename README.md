@@ -20,7 +20,7 @@ Plataforma Web desenvolvida para facilitar a mobilidade acadêmica na UTFPR Camp
 
 * 🔗 [Protótipo Figma](https://www.figma.com/design/lKeGyx9s4LH1bQ7KTdt6dN/Untitled?node-id=1-1128&t=nXCuX4tWgNwH5yPn-0)
 
-=======
+
 * 🎨 Telas e prototipação no Stitch: [Acessar projeto](https://stitch.google.com/projects/8491646570534218067?pli=1)
 
 
