@@ -3,7 +3,7 @@
 **Projeto:** Caronas UTFPR
 **Versão:** 1.0 (MVP)
 **Autor:** Gabriel Campos Manzoli
-**Última atualização:** 23/09/2026
+**Última atualização:** 22/10/2026
 
 > 🤖 **Este documento é a fonte da verdade sobre o QUE o produto faz.** Regra de
 > negócio que não estiver aqui não existe — nem para a equipe, nem para a IA.
@@ -37,7 +37,7 @@
 | Solicitação | Pedido formal enviado por um passageiro para reservar uma vaga em uma carona ativa. | Reserva automática ou confirmação imediata. |
 | Vaga | Assento individual disponível em um veículo ofertado para um trajeto. | Reserva confirmada. |
 | Visitante | Usuário cadastrado no sistema sem vínculo ativo direto com a universidade, identificado por badge obrigatória. | Usuário anônimo ou aluno/professor. |
-| Ponto de Encontro | Local específico combinado para embarque ou desembarque do passageiro ao longo do trajeto. | Rota inteira com paradas complexas. |
+| Ponto de Encontro | Local de embarque ou desembarque definido pelo motorista como atributo da carona; os participantes podem alinhar os detalhes no chat. | Rota inteira com paradas complexas. |
 | Status da Solicitação | Estado atual da vaga pedida pelo passageiro: Pendente, Aceita ou Recusada. | Status da carona. |
 
 ---
@@ -100,7 +100,7 @@
 
 **Critérios de aceite:**
 
-- [ ] **Dado** que a carona possui vagas livres e eu ainda não possuo solicitação para ela, **quando** confirmo a solicitação de vaga, **então** o pedido é criado com status "Pendente" e o motorista é notificado.
+- [ ] **Dado** que a carona possui vagas livres e eu não possuo solicitação ativa (Pendente ou Aceita) para ela (uma solicitação Recusada não impede nova tentativa), **quando** confirmo a solicitação de vaga, **então** o pedido é criado com status "Pendente" e o motorista recebe uma notificação interna.
 - [ ] **Dado** que as vagas da carona se esgotaram enquanto eu analisava os detalhes, **quando** tento confirmar a solicitação, **então** o sistema impede a ação, exibe a mensagem "Esta carona não possui mais vagas disponíveis" e nada é registrado.
 - [ ] **Dado** que já possuo uma solicitação ativa (Pendente ou Aceita) para a mesma carona, **quando** visualizo os detalhes da viagem, **então** o botão de solicitação aparece desabilitado informando "Você já solicitou vaga nesta viagem".
 
@@ -173,3 +173,4 @@
 | Data | Versão | O que mudou |
 | :--- | :----- | :---------- |
 | 2026-09-23 | 1.0.0 | Versão inicial do PRD preenchida com tema, glossário, atores, stories, regras de negócio, fora de escopo e RNFs. |
+| 2026-10-22 | 1.0.0 | Consolidação documental; sem alteração da versão do produto ou dos requisitos. |
